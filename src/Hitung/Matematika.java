@@ -19,5 +19,9 @@ public class Matematika {
     public double setPembagian(){
         return bil1 / bil2;
     }
+
+    String setpenjumlahan() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

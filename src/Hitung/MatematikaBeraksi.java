@@ -1,13 +1,12 @@
 package Hitung;
 
 public class MatematikaBeraksi {
-   private double bil1, bil2; 
-   
-   public Matematika(double bil1, double bil2){
-       this.bil1 = bil1;
-       this.bil2 = bil2;
-   }
-   public double setPenjumlahan (){
-       return bil1 + bil2;
-   }
+    public static void main(String[] args) {
+       Matematika jonwar = new Matematika(3,4);
+       
+       System.out.println("Hasil penjumlahan: "+jonwar.setPenjumlahan());
+       System.out.println("Hasil pengurangan: "+jonwar.setPengurangan());
+       System.out.println("Hasil perkalian: "+jonwar.setPerkalian());
+       System.out.println("Hasil pembagian: "+jonwar.setPembagian());
+    }
 }
